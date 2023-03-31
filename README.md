@@ -22,7 +22,7 @@ pip install python-gitlab
 3. Open a terminal window and navigate to the directory where the script is located.
 4. Run the script using the following command, replacing the placeholders with your own values:
 ```
-python gitlab_api_pull_request_data_fetcher.py --token=<your_gitlab_api_token> --url=<your_gitlab_server_url> --user=<user_id> --start=<start_time> --end=<end_time> --file=<file_path>
+python mr_audit.py --token=<your_gitlab_api_token> --url=<your_gitlab_server_url> --user=<user_id> --start=<start_time> --end=<end_time> --file=<file_path>
 ```
 
 - `token`: Your GitLab API token with read access to the server.
